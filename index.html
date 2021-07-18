@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body class="back">
+    <header class="header">
+      <h1 class="tittleSeries">Buscador de Series</h1>
+      <form action="#" method="get" class="inputClass">
+        <input type="text" class="js-userInput" placeholder="Ej: The Office" />
+        <input type="button" class="button js-button" value="Buscar" />
+        <input type="button" class="button js-log" value="Log" />
+      </form>
+    </header>
+    <main class="content">
+      <section class="all-series-js">
+        <ul class="result js-placeResult"></ul>
+      </section>
+      <input type="button" class="button js-resetbutton" value="Borrar" />
+      <ul class="favorites js-favorites"></ul>
+    </main>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
